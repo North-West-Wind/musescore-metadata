@@ -7,10 +7,23 @@
     "test": "node test.js"
   },
   "author": "NorthWestWind",
-  "license": "GNU v3",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "cheerio": "^1.0.0-rc.5",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/North-West-Wind/musescore-metadata.git"
+  },
+  "keywords": [
+    "musescore",
+    "metadata"
+  ],
+  "bugs": {
+    "url": "https://github.com/North-West-Wind/musescore-metadata/issues"
+  },
+  "homepage": "https://github.com/North-West-Wind/musescore-metadata#readme"
 }
