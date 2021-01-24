@@ -1,0 +1,16 @@
+{
+  "name": "musescore-metadata",
+  "version": "1.0.0",
+  "description": "Fetch score metadata from Musescore link.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "NorthWestWind",
+  "license": "GNU v3",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
+  }
+}
