@@ -44,9 +44,3 @@ console.log(metadata);
   "firstPage": "https://musescore.com/static/musescore/scoredata/g/7cb72b8453d52b7f20417371678185640950a3c4/score_0.png"
 }
 ```
-
-## Testing
-
-```
-npm test
-```
