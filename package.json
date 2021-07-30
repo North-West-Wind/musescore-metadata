@@ -1,9 +1,11 @@
 {
   "name": "musescore-metadata",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fetch score metadata from Musescore link.",
   "main": "index.js",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
