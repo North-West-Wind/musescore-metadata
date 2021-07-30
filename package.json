@@ -3,8 +3,10 @@
   "version": "1.0.1",
   "description": "Fetch score metadata from Musescore link.",
   "main": "index.js",
+  "files": ["lib/**/*"],
   "scripts": {
-    "test": "node test.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "author": "NorthWestWind",
   "license": "GPL-3.0-or-later",
@@ -13,7 +15,10 @@
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/request-promise-native": "^1.0.18",
+    "typescript": "^4.3.5"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/North-West-Wind/musescore-metadata.git"
