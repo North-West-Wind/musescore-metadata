@@ -2,7 +2,7 @@
   "name": "musescore-metadata",
   "version": "1.0.3",
   "description": "Fetch score metadata from Musescore link.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
     "lib/**/*"
   ],
