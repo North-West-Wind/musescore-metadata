@@ -1,7 +1,7 @@
 import * as cheerio from "cheerio";
 import * as rp from "request-promise-native";
 
-interface MusescoreUser {
+interface MuseUser {
     id: number;
     name: string;
     url: string;
@@ -11,23 +11,71 @@ interface MusescoreUser {
     is_moderator: boolean;
     cover_url: string;
     date_created: number;
+    is_publisher: boolean;
     _links: { self: { href: string } };
 }
 
-interface Metadata {
+interface MuseScore {
     id: number;
     title: string;
-    thumbnail: string;
-    parts: string[];
-    url: string;
-    user: MusescoreUser;
-    duration: string;
-    pageCount: number;
-    created: number;
-    updated: number;
+    file_score_title: string;
+    subtitle: string;
     description: string;
-    tags: string[];
+    can_manage_score: boolean;
+    parts: number;
+    parts_names: string[];
+    thumbnails: { small: string, medium: string, large: string, original: string };
+    share: { publicUrl: string, embedUrl: string, url: string, title: string, isShowSecretUrl: boolean };
+    user: MuseUser;
+    url: string;
+    duration: string;
+    composer_name: string;
+    pages_count: number;
+    date_created: number;
+    date_updated: number;
+    favorite_count: number;
+    comments_count: number;
+    instruments: { name: string, url_to_search: string, count: number }[];
+    hits: number;
+    is_draft: boolean;
+    processing: string;
+    revisions_count: number;
+    revision_id: number;
+    has_custom_video: boolean;
+    has_custom_audio: boolean;
+    is_private: number;
+    is_origin: boolean;
+    is_public_domain: boolean;
+    truncated_description: string;
+    instrumentations: { url_to_search: string, id: number, name: string, parent_id: number, weight: number, is_active: number, is_auto: number, uri: string }[],
+    rating: { rating: number, count: number, count_to_visible: number, stats: { rating: number, count: number }[], user_rating: number | null, abusive_ban_time: number | null, abusive_ban_time_remain: number | null },
+    publisher: string;
+    is_official: boolean;
+    is_downloadable: number;
+    is_blocked: boolean;
+    license: string;
+    instrumentation_id: number;
+    is_original: boolean;
+    measures: number;
+    keysig: string;
+    license_id: number;
+    license_version: string;
+    song_name: string;
+    artist_name: string;
+    _links: { self: { href: string } };
     firstPage: string;
+}
+
+interface MuseSet {
+    id: number;
+    title: string;
+    description: string;
+    category: string;
+    date_created: number;
+    date_updated: number;
+    is_private: number;
+    user: MuseUser;
+    scores: MuseScore[];
 }
 
 function findValueByPrefix(object: any, prefix: string) {
@@ -42,26 +90,31 @@ function parseBody(body: string) {
     const firstPage = image.split("@")[0];
     const stores = Array.from($('div[class^="js-"]'));
     const found = stores.find(x => x.attribs && x.attribs.class && x.attribs.class.match(/^js-\w+$/) && findValueByPrefix(x.attribs, "data-"));
-    const store = findValueByPrefix((<any> found).attribs, "data-");
+    const store = findValueByPrefix((<any>found).attribs, "data-");
     if (!store) throw new Error("Cannot find store.");
-    const data = JSON.parse(store).store.page.data;
-    const id = data.score.id;
-    const title = data.score.title;
-    const thumbnail = data.score.thumbnails.large;
-    const parts = data.score.parts_names;
-    const url = data.score.share.publicUrl;
-    const user = data.score.user;
-    const duration = data.score.duration;
-    const pageCount = data.score.pages_count;
-    const created = data.score.date_created;
-    const updated = data.score.date_updated;
-    const description = data.score.truncated_description;
-    const tags = data.score.tags;
-    return { id, title, thumbnail, parts, url, user, duration, pageCount, created, updated, description, tags, firstPage };
+    return Object.assign(JSON.parse(store).store.page.data.score, { firstPage });
 }
 
-export default async function muse(url: string) {
+function parseSet(body: string) {
+    const $ = cheerio.load(body);
+    const stores = Array.from($('div[class^="js-"]'));
+    const found = stores.find(x => x.attribs && x.attribs.class && x.attribs.class.match(/^js-\w+$/) && findValueByPrefix(x.attribs, "data-"));
+    const store = findValueByPrefix((<any>found).attribs, "data-");
+    if (!store) throw new Error("Cannot find store.");
+    const data = JSON.parse(store).store.page.data;
+    return Object.assign(data.set, { user: data.user, scores: data.scores });
+}
+
+async function muse(url: string) {
     const response = await rp({ uri: url, resolveWithFullResponse: true });
     if (Math.floor(response.statusCode / 100) !== 2) throw new Error(`Received HTTP status code ${response.statusCode} when fetching data.`);
-    return <Metadata> parseBody(response.body);
+    return <MuseScore>parseBody(response.body);
 }
+
+async function museSet(url: string) {
+    const response = await rp({ uri: url, resolveWithFullResponse: true });
+    if (Math.floor(response.statusCode / 100) !== 2) throw new Error(`Received HTTP status code ${response.statusCode} when fetching data.`);
+    return <MuseSet>parseSet(response.body);
+}
+
+export { muse, museSet };
