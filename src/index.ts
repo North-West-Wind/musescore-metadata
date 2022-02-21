@@ -51,6 +51,8 @@ interface MuseScore {
     rating: { rating: number, count: number, count_to_visible: number, stats: { rating: number, count: number }[], user_rating: number | null, abusive_ban_time: number | null, abusive_ban_time_remain: number | null },
     publisher: string;
     is_official: boolean;
+    body: string;
+    tags: string[];
     is_downloadable: number;
     is_blocked: boolean;
     license: string;
