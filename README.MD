@@ -13,9 +13,20 @@ const metadata = await muse(/* Musescore link */);
 ```
 Version v2 also added support for Musescore Sets
 ```js
+// Using require
 const { museSet } = require("musescore-metadata");
+// Using import
+import { museSet } from "musescore-metadata";
+const metadata = await museSet(/* Musescore set link */);
 ```
-
+v2.1 added support for score searching
+```js
+// Using require
+const { museSearch } = require("musescore-metadata");
+// Using import
+import { museSearch } from "musescore-metadata";
+const metadata = await museSearch(/* Any string */);
+```
 ## Example
 
 ### Code
