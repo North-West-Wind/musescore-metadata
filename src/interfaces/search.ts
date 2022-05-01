@@ -1,3 +1,5 @@
+import { MuseScore } from "./common";
+
 interface HubIds {
     [key: string]: {
         id: string;
@@ -44,7 +46,7 @@ interface SearchData {
     genres: { id: number, name: string, parent_id: number, aliases: string[], name_stripped: string }[];
 }
 
-interface MuseSearch {
+export interface MuseSearch {
     search: { value: string, activeHubId: string, hubs: { ids: string[][], byIds: HubIds } };
     flashMessage?: string;
     telemetry: { trackingId: number };

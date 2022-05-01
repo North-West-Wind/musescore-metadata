@@ -1,5 +1,8 @@
 import * as cheerio from "cheerio";
 import * as rp from "request-promise-native";
+import { MuseScore } from "./interfaces/common";
+import { MuseSearch } from "./interfaces/search";
+import { MuseSet } from "./interfaces/set";
 
 function findValueByPrefix(object: any, prefix: string) {
     for (const property in object) if (object[property] && property.toString().startsWith(prefix)) return object[property];

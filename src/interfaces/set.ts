@@ -1,4 +1,6 @@
-interface MuseSet {
+import { MuseUser, MuseScore } from "./common";
+
+export interface MuseSet {
     id: number;
     title: string;
     description: string;
