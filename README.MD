@@ -9,15 +9,24 @@ Fetch score metadata from Musescore link.
 const { muse } = require("musescore-metadata");
 // Using import
 import { muse } from "musescore-metadata";
+
 const metadata = await muse(/* Musescore link */);
 ```
-Version v2 also added support for Musescore Sets
+v2 also added support for Musescore Sets.  v2.1.2 allows getting a page or all pages.
 ```js
 // Using require
 const { museSet } = require("musescore-metadata");
 // Using import
 import { museSet } from "musescore-metadata";
+
+// Getting first page (scores 1-100) of set
 const metadata = await museSet(/* Musescore set link */);
+// Getting second page (scores 101-200) of set
+const metadata = await museSet(/* Musescore set link */, { page: 2 });
+// Getting all pages (scores 1-total amount) of set
+const metadata = await museSet(/* Musescore set link */, { all: true });
+// Getting all pages (scores 1-total amount) of set. "all" is prioritized.
+const metadata = await museSet(/* Musescore set link */, { page: 2, all: true });
 ```
 v2.1 added support for score searching
 ```js
@@ -25,6 +34,7 @@ v2.1 added support for score searching
 const { museSearch } = require("musescore-metadata");
 // Using import
 import { museSearch } from "musescore-metadata";
+
 const metadata = await museSearch(/* Any string */);
 ```
 ## Example

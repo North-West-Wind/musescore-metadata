@@ -10,4 +10,23 @@ export interface MuseSet {
     is_private: number;
     user: MuseUser;
     scores: MuseScore[];
+    pagination: MuseSetPagination;
+}
+
+export interface MuseSetPagination {
+    pageParam: string
+    pageSizeParam: string
+    forcePageParam: boolean
+    route?: string
+    params?: string[]
+    urlManager?: any;
+    validatePage: boolean;
+    totalCount: number;
+    defaultPageSize: number;
+    pageSizeLimit: number[];
+}
+
+export interface MuseSetOption {
+    page?: number;
+    all?: boolean;
 }
