@@ -1,4 +1,4 @@
-export interface MuseUser {
+export type MuseUser = {
     id: number;
     name: string;
     url: string;
@@ -12,7 +12,7 @@ export interface MuseUser {
     _links: { self: { href: string } };
 }
 
-export interface MuseScore {
+export type MuseScore = {
     id: number;
     title: string;
     file_score_title: string;
@@ -65,7 +65,7 @@ export interface MuseScore {
     firstPage: string;
 }
 
-export interface MuseHub {
+export type MuseHub = {
     id: number;
     title: string;
     alias: string;

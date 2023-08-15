@@ -1,6 +1,6 @@
 import { MuseUser, MuseScore } from "./common";
 
-export interface MuseSet {
+export type MuseSet = {
     id: number;
     title: string;
     description: string;
@@ -13,7 +13,7 @@ export interface MuseSet {
     pagination: MuseSetPagination;
 }
 
-export interface MuseSetPagination {
+export type MuseSetPagination = {
     pageParam: string
     pageSizeParam: string
     forcePageParam: boolean
@@ -26,7 +26,7 @@ export interface MuseSetPagination {
     pageSizeLimit: number[];
 }
 
-export interface MuseSetOption {
+export type MuseSetOption = {
     page?: number;
     all?: boolean;
 }

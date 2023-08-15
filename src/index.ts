@@ -1,8 +1,8 @@
 import * as cheerio from "cheerio";
-import * as rp from "request-promise-native";
 import { MuseScore } from "./interfaces/common";
-import { MuseSearch } from "./interfaces/search";
-import { MuseSet, MuseSetOption } from "./interfaces/set";
+import { MuseSearch, MuseSearchOptions } from "./interfaces/search";
+import { MuseSet, MuseSetOption as MuseSetOptions } from "./interfaces/set";
+import fetch from "node-fetch";
 
 function findValueByPrefix(object: any, prefix: string) {
     for (const property in object) if (object[property] && property.toString().startsWith(prefix)) return object[property];
@@ -41,37 +41,39 @@ function parseSearch(body: string) {
     delete parsed.user;
     delete parsed.notifications;
     delete parsed.page.experiments;
-    parsed.page.data.filters.parts = parsed.page.data.filters.parts.map((x: any) => ({ id: x.id, count: parseInt(x.count), name: x.name }));
-    parsed.page.data.filters.genres = parsed.page.data.filters.genres.map((x: any) => ({ id: x.id, count: parseInt(x.count), name: x.name, key_word: x.key_word, uri: x.uri }));
+    delete parsed.page.data.filters;
     return parsed;
 }
 
 async function muse(url: string) {
-    const response = await rp({ uri: url, resolveWithFullResponse: true });
-    if (Math.floor(response.statusCode / 100) !== 2) throw new Error(`Received HTTP status code ${response.statusCode} when fetching data.`);
-    return <MuseScore>parseBody(response.body);
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`Received HTTP status code ${response.status} when fetching data.`);
+    return <MuseScore>parseBody(await response.text());
 }
 
-async function museSet(url: string, option: MuseSetOption = {}) {
-    if (option.all) url = url.split("?")[0];
-    else if (option.page) url = url.split("?")[0] + "?page=" + option.page;
-    const response = await rp({ uri: url, resolveWithFullResponse: true });
-    if (Math.floor(response.statusCode / 100) !== 2) throw new Error(`Received HTTP status code ${response.statusCode} when fetching data.`);
-    const parsed = <MuseSet>parseSet(response.body);
-    if (!option.all || parsed.pagination.totalCount < parsed.pagination.defaultPageSize) return parsed;
+async function museSet(url: string, options: MuseSetOptions = {}) {
+    if (options.all) url = url.split("?")[0];
+    else if (options.page) url = url.split("?")[0] + "?page=" + options.page;
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`Received HTTP status code ${response.status} when fetching data.`);
+    const parsed = <MuseSet>parseSet(await response.text());
+    if (!options.all || parsed.pagination.totalCount < parsed.pagination.defaultPageSize) return parsed;
     for (let ii = 2; ii <= Math.ceil(parsed.pagination.totalCount / parsed.pagination.defaultPageSize); ii++) {
-        const response = await rp({ uri: url + "?page=" + ii, resolveWithFullResponse: true });
-        if (Math.floor(response.statusCode / 100) !== 2) throw new Error(`Received HTTP status code ${response.statusCode} when fetching data.`);
-        const more = <MuseSet>parseSet(response.body);
+        const response = await fetch(url + "?page=" + ii);
+        if (!response.ok) throw new Error(`Received HTTP status code ${response.status} when fetching data.`);
+        const more = <MuseSet>parseSet(await response.text());
         parsed.scores = parsed.scores.concat(more.scores);
     }
     return parsed;
 }
 
-async function museSearch(query: string) {
-    const response = await rp({ uri: `https://musescore.com/sheetmusic?text=${encodeURIComponent(query)}`, resolveWithFullResponse: true });
-    if (Math.floor(response.statusCode / 100) !== 2) throw new Error(`Received HTTP status code ${response.statusCode} when fetching data.`);
-    return <MuseSearch>parseSearch(response.body);
+async function museSearch(query: string, options: MuseSearchOptions = {}) {
+    let url = `https://musescore.com/sheetmusic?text=${encodeURIComponent(query)}`;
+    if (options.page) url += `page=${options.page}`;
+    if (options.sort) url += `sort=${options.sort}`;
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`Received HTTP status code ${response.status} when fetching data.`);
+    return <MuseSearch>parseSearch(await response.text());
 }
 
 export { muse, museSet, museSearch };
