@@ -1,6 +1,6 @@
 {
   "name": "musescore-metadata",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Fetch score metadata from Musescore link.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -20,6 +20,7 @@
   "devDependencies": {
     "@types/node": "^20.5.0",
     "@types/node-fetch": "^2.6.4",
+    "tsx": "^4.19.4",
     "typescript": "^5.1.6"
   },
   "repository": {

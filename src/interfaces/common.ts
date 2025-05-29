@@ -7,22 +7,34 @@ export type MuseUser = {
     is_staff: boolean;
     is_moderator: boolean;
     cover_url: string;
+		has_cover: boolean;
     date_created: number;
     is_publisher: boolean;
     _links: { self: { href: string } };
 }
 
-export type MuseScore = {
+export type MuseScoreBase = {
     id: number;
     title: string;
     file_score_title: string;
     subtitle: string;
-    description: string;
+    description: string | null;
     can_manage_score: boolean;
     parts: number;
     parts_names: string[];
-    thumbnails: { small: string, medium: string, large: string, original: string };
-    share: { publicUrl: string, embedUrl: string, url: string, title: string, isShowSecretUrl: boolean };
+    thumbnails: {
+			small: string;
+			medium: string;
+			large: string;
+			original: string;
+		};
+    share: {
+			publicUrl: string;
+			embedUrl: string;
+			url: string;
+			title: string;
+			isShowSecretUrl: boolean;
+		};
     user: MuseUser;
     url: string;
     duration: string;
@@ -41,17 +53,27 @@ export type MuseScore = {
     has_custom_video: boolean;
     has_custom_audio: boolean;
     is_private: number;
-    is_origin: boolean;
+    is_blocked: number;
+		score_part_available: number;
+		score_part_is_on: number;
+		is_copyright_protected: number;
+		copyright_protection_value: string;
+		is_origin: boolean;
+		is_free: boolean;
     is_public_domain: boolean;
     truncated_description: string;
-    instrumentations: { url_to_search: string, id: number, name: string, parent_id: number, weight: number, is_active: number, is_auto: number, uri: string }[],
+    instrumentations: { url_to_search: string, name: string }[],
     rating: { rating: number, count: number, count_to_visible: number, stats: { rating: number, count: number }[], user_rating: number | null, abusive_ban_time: number | null, abusive_ban_time_remain: number | null },
-    publisher: string;
+    publisher: string | null;
     is_official: boolean;
+		is_purchased: boolean;
+    _links: { self: { href: string } };
+}
+
+export type MuseScore = MuseScoreBase & {
     body: string;
     tags: string[];
     is_downloadable: number;
-    is_blocked: boolean;
     license: string;
     instrumentation_id: number;
     is_original: boolean;
@@ -61,7 +83,12 @@ export type MuseScore = {
     license_version: string;
     song_name: string;
     artist_name: string;
-    _links: { self: { href: string } };
+		complexity: number;
+		category_pages: { url_to_search: string, name: string }[];
+		is_pdf: boolean;
+		is_arrange_me: boolean;
+		billing_min_qty: number;
+		billing_can_buy: boolean;
     firstPage: string;
 }
 

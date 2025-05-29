@@ -1,0 +1,2338 @@
+{
+	"billing": {
+		"subscriptions": [],
+		"pastSubscriptions": [],
+		"credits": {
+			"amount": 0
+		},
+		"abonement": {
+			"amount": 0
+		},
+		"course_credits": {
+			"amount": 0
+		},
+		"lite_abonement": {
+			"amount": 0
+		},
+		"ebook_credits": {
+			"amount": 0
+		},
+		"ebook_abonement": {
+			"amount": 0
+		},
+		"has_ebooks": false,
+		"bonus_points": {
+			"amount": 0
+		},
+		"currency": "HKD",
+		"currency_paypal": "HKD",
+		"country_currency": "HKD",
+		"country_code": "HK",
+		"country_currency_fallback": false
+	},
+	"level_instrument_title": "",
+	"i18n": {
+		"locale": "en-US",
+		"language": "en",
+		"links": {
+			"default": "https://musescore.com/sheetmusic?text=Saloon%20Music",
+			"pt": "https://musescore.com/sheetmusic?text=Saloon%20Music",
+			"es": "https://musescore.com/sheetmusic?text=Saloon%20Music"
+		}
+	},
+	"search": {
+		"value": "Saloon Music"
+	},
+	"flashMessage": null,
+	"telemetry": {
+		"trackingId": 0
+	},
+	"set_order_options": [
+		{
+			"name": "Custom",
+			"value": 0
+		},
+		{
+			"name": "Title",
+			"value": 1
+		},
+		{
+			"name": "Date uploaded (newest first)",
+			"value": 2
+		},
+		{
+			"name": "Date uploaded (oldest first)",
+			"value": 3
+		},
+		{
+			"name": "View count",
+			"value": 4
+		},
+		{
+			"name": "Rating",
+			"value": 5
+		}
+	],
+	"page": {
+		"template": {
+			"module": "sheetmusic",
+			"controller": "browse",
+			"action": "index",
+			"isUgOffice": 0,
+			"isOuterMarkupDisabled": false
+		},
+		"data": {
+			"scores": [
+				{
+					"id": 18371071,
+					"title": "[b]Saloon[/b] [b]Music[/b] - Christopher Merrill (Piano Solo)",
+					"parts": 1,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/d912b1a6ef4c8624ecc3457ae5d3afdeb0c610f6/score_0.png@180x252?no-cache=1723641684&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/d912b1a6ef4c8624ecc3457ae5d3afdeb0c610f6/score_0.png@300x420?no-cache=1723641684&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/d912b1a6ef4c8624ecc3457ae5d3afdeb0c610f6/score_0.png@500x660?no-cache=1723641684&bgclr=ffffff"
+					},
+					"date_updated": 1723641684,
+					"duration": "01:48",
+					"hits": 27,
+					"comments_count": 0,
+					"user": {
+						"id": 97106398,
+						"name": "ArrangeMe",
+						"url": "https://musescore.com/arrangeme",
+						"is_pro": true,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": true
+					},
+					"is_free": 0,
+					"is_public_domain": 0,
+					"pages_count": 2,
+					"length": 108,
+					"date_created": 1718966369,
+					"favorite_count": 1,
+					"download_count": 0,
+					"user_id": 97106398,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 1,
+					"complexity": 0,
+					"instrumentations": [
+						{
+							"name": "Solo"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						}
+					],
+					"rating": {
+						"rating": 0,
+						"count": 0,
+						"count_to_visible": 3
+					},
+					"is_origin": false,
+					"is_official": true,
+					"publisher": {
+						"publisher_id": 3
+					},
+					"parts_names": [],
+					"description": "Solo",
+					"url": "https://musescore.com/",
+					"composer_name": "",
+					"mobile_app_web": false,
+					"id_analytics": "J7RVhfwsM0Zzpm7sQZGhdDczZDBmNmY3MWJkZjNlNzNiMGRkNDUyMjRkZmU4ZDY5OWUzZGY3MjU2MzhiMmMyMzY1MmFiYmQ5ZDUwY2I5ZDBBugUMd01IWP8mCYaRi6jf3lzNECbWo22faFXeJRmMiA==",
+					"is_pdf": 1,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "Composer: Christopher Merrill\nArrangement Format: Piano Solo\nCategories: Contemporary\nInstruments: Piano",
+					"href": "https://musescore.com/user/97106398/scores/18371071",
+					"instrumentation_links": [
+						{
+							"url_to_search": "/sheetmusic/solo/piano",
+							"name": "Solo Piano"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						}
+					]
+				},
+				{
+					"id": 5573180,
+					"title": "Surviv.io [b]Saloon[/b] [b]Music[/b]",
+					"parts": 1,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/7cb72b8453d52b7f20417371678185640950a3c4/score_0.png@180x252?no-cache=1715693856&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/7cb72b8453d52b7f20417371678185640950a3c4/score_0.png@300x420?no-cache=1715693856&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/7cb72b8453d52b7f20417371678185640950a3c4/score_0.png@500x660?no-cache=1715693856&bgclr=ffffff"
+					},
+					"date_updated": 1715693856,
+					"duration": "00:31",
+					"hits": 2879,
+					"comments_count": 10,
+					"user": {
+						"id": 31734019,
+						"name": "NorthWestWind",
+						"url": "https://musescore.com/user/31734019",
+						"is_pro": false,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": false
+					},
+					"is_free": 1,
+					"is_public_domain": 0,
+					"pages_count": 1,
+					"length": 31,
+					"date_created": 1558102538,
+					"favorite_count": 65,
+					"download_count": 76,
+					"user_id": 31734019,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 0,
+					"complexity": 2,
+					"instrumentations": [
+						{
+							"name": "Solo"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						}
+					],
+					"rating": {
+						"rating": 4.71,
+						"count": 35,
+						"count_to_visible": 0
+					},
+					"is_origin": false,
+					"is_official": false,
+					"publisher": null,
+					"parts_names": [
+						"Piano"
+					],
+					"description": "Solo",
+					"url": "https://musescore.com/",
+					"composer_name": "Composer",
+					"mobile_app_web": false,
+					"id_analytics": "YdchHGmmZTt7ZfoSgpcCAmQxNzY3Y2NlYWNmNzY3ZWExYjY5NThkOGQ4MmNjMjA2NWRlZGJjZjJlYTNkMmYyNzIyYzc4YWFlMmY3YTg1NjPp6iZkcUfNyeoER9moNHYe5oZxVrsti/57cBgkzUkTbA==",
+					"is_pdf": 0,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "I can't find any piano sheet on the internet so I created it myself :D\r\n\r\nAlso, you can now download the PDFs from https: [url state=primary href=\"https://musescore.com/user/31734019/scores/5573180\"]Read more[/url]",
+					"href": "https://musescore.com/user/31734019/scores/5573180",
+					"instrumentation_links": [
+						{
+							"url_to_search": "/sheetmusic/solo/piano",
+							"name": "Solo Piano"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						}
+					]
+				},
+				{
+					"id": 5460757,
+					"title": "[b]Saloon[/b] [b]Music[/b]",
+					"parts": 1,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/32c9d971fae6cf0709561de5732052476302bebd/score_0.png@180x252?no-cache=1715693438&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/32c9d971fae6cf0709561de5732052476302bebd/score_0.png@300x420?no-cache=1715693438&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/32c9d971fae6cf0709561de5732052476302bebd/score_0.png@500x660?no-cache=1715693438&bgclr=ffffff"
+					},
+					"date_updated": 1715693438,
+					"duration": "00:50",
+					"hits": 2642,
+					"comments_count": 1,
+					"user": {
+						"id": 14340971,
+						"name": "Majcher Artúr",
+						"url": "https://musescore.com/artur-majcher",
+						"is_pro": false,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": false
+					},
+					"is_free": 1,
+					"is_public_domain": 0,
+					"pages_count": 2,
+					"length": 50,
+					"date_created": 1550945527,
+					"favorite_count": 30,
+					"download_count": 80,
+					"user_id": 14340971,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 0,
+					"complexity": 0,
+					"instrumentations": [
+						{
+							"name": "Solo"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						}
+					],
+					"rating": {
+						"rating": 4.88,
+						"count": 6,
+						"count_to_visible": 0
+					},
+					"is_origin": false,
+					"is_official": false,
+					"publisher": null,
+					"parts_names": [
+						"Honky-tonk zongora"
+					],
+					"description": "Solo",
+					"url": "https://musescore.com/",
+					"composer_name": "Majcher Artúr Bendegúz",
+					"mobile_app_web": false,
+					"id_analytics": "JWKCXoJVjIXorw6nuJShPmVlZDE4MjUyYjEyZDllN2I4NmIxNzdhNTRkZjAyMzRhZDgxM2Q4MmQ3NjI3NzVlZDdkODZjNTgyZDlhYmUzODnyGI2vhtG7obNCvkyTsC2hP5HeQ9sQNryLT9KyvbuUxQ==",
+					"is_pdf": 0,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "",
+					"href": "https://musescore.com/user/14340971/scores/5460757",
+					"instrumentation_links": [
+						{
+							"url_to_search": "/sheetmusic/solo/piano",
+							"name": "Solo Piano"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						}
+					]
+				},
+				{
+					"id": 5656363,
+					"title": "Surviv.io [b]Saloon[/b] [b]Music[/b]",
+					"parts": 1,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/420d3eb786362e6c57dbf454075894a626c3eb7c/score_0.png@180x252?no-cache=1715694241&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/420d3eb786362e6c57dbf454075894a626c3eb7c/score_0.png@300x420?no-cache=1715694241&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/420d3eb786362e6c57dbf454075894a626c3eb7c/score_0.png@500x660?no-cache=1715694241&bgclr=ffffff"
+					},
+					"date_updated": 1715694241,
+					"duration": "00:30",
+					"hits": 770,
+					"comments_count": 2,
+					"user": {
+						"id": 26932200,
+						"name": "y_prime",
+						"url": "https://musescore.com/user/26932200",
+						"is_pro": false,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": false
+					},
+					"is_free": 1,
+					"is_public_domain": 0,
+					"pages_count": 1,
+					"length": 30,
+					"date_created": 1564205019,
+					"favorite_count": 15,
+					"download_count": 16,
+					"user_id": 26932200,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 0,
+					"complexity": 1,
+					"instrumentations": [
+						{
+							"name": "Solo"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						}
+					],
+					"rating": {
+						"rating": 4.81,
+						"count": 8,
+						"count_to_visible": 0
+					},
+					"is_origin": false,
+					"is_official": false,
+					"publisher": null,
+					"parts_names": [
+						"Piano"
+					],
+					"description": "Solo",
+					"url": "https://musescore.com/",
+					"composer_name": "Justin Kim\nsurviv.io\n",
+					"mobile_app_web": false,
+					"id_analytics": "xxuUwDex0eVU1BWQuy1fXzM4YmNiZTlhNjI3NGZjNTk2ZWUxZjc5ZjllZmZjNDYwNmUyY2I0ZTY0M2VmNjNiYjI0NGZmODYzZTgzNmFiNzfS6YZmvSD4Kpx1IeqYgaqtMQf/dsJ+OHKJ5jX8zffreA==",
+					"is_pdf": 0,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "I tried to transcribe the Saloon music from surviv.io. I hope it's accurate.",
+					"href": "https://musescore.com/user/26932200/scores/5656363",
+					"instrumentation_links": [
+						{
+							"url_to_search": "/sheetmusic/solo/piano",
+							"name": "Solo Piano"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						}
+					]
+				},
+				{
+					"id": 5631523,
+					"title": "Whimsical [b]Saloon[/b] [b]Music[/b]",
+					"parts": 1,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/d7e01574a58c13148362a725db439e7fef3f9e99/score_0.png@180x252?no-cache=1715694123&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/d7e01574a58c13148362a725db439e7fef3f9e99/score_0.png@300x420?no-cache=1715694123&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/d7e01574a58c13148362a725db439e7fef3f9e99/score_0.png@500x660?no-cache=1715694123&bgclr=ffffff"
+					},
+					"date_updated": 1715694123,
+					"duration": "00:32",
+					"hits": 648,
+					"comments_count": 0,
+					"user": {
+						"id": 32580570,
+						"name": "RC-873",
+						"url": "https://musescore.com/user/32580570",
+						"is_pro": false,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": false
+					},
+					"is_free": 1,
+					"is_public_domain": 0,
+					"pages_count": 1,
+					"length": 32,
+					"date_created": 1562187564,
+					"favorite_count": 21,
+					"download_count": 29,
+					"user_id": 32580570,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 0,
+					"complexity": 1,
+					"instrumentations": [
+						{
+							"name": "Solo"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						}
+					],
+					"rating": {
+						"rating": 4.62,
+						"count": 5,
+						"count_to_visible": 0
+					},
+					"is_origin": false,
+					"is_official": false,
+					"publisher": null,
+					"parts_names": [
+						"Piano"
+					],
+					"description": "Solo",
+					"url": "https://musescore.com/",
+					"composer_name": "Composer",
+					"mobile_app_web": false,
+					"id_analytics": "Pa9HkFNiigPa8sA4zrUESTk0MmQ1MzIyY2VkNzljMmQ4ZmNiYWQ0NjczMzczMTg0MmFkZWJiMTNiZDNkYTM4MDVlMGNiYmM0NWNmNTU3YjULIqT+t6pzgz1KbY9vwfjc8kuJmwxETW0puJA1X2ilww==",
+					"is_pdf": 0,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "",
+					"href": "https://musescore.com/user/32580570/scores/5631523",
+					"instrumentation_links": [
+						{
+							"url_to_search": "/sheetmusic/solo/piano",
+							"name": "Solo Piano"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						}
+					]
+				},
+				{
+					"id": 8459297,
+					"title": "The Stardrop [b]Saloon[/b], Stardew Valley OST – Eric Barone - Accordion Solo",
+					"parts": 1,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/8c8724919be033e138f61511c1e0abf112567cd5/score_0.png@180x252?no-cache=1743433432&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/8c8724919be033e138f61511c1e0abf112567cd5/score_0.png@300x420?no-cache=1743433432&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/8c8724919be033e138f61511c1e0abf112567cd5/score_0.png@500x660?no-cache=1743433432&bgclr=ffffff"
+					},
+					"date_updated": 1743433432,
+					"duration": "02:46",
+					"hits": 1277,
+					"comments_count": 135,
+					"user": {
+						"id": 48692484,
+						"name": "Musical Traveller",
+						"url": "https://musescore.com/user/48692484",
+						"is_pro": false,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": false
+					},
+					"is_free": 1,
+					"is_public_domain": 0,
+					"pages_count": 2,
+					"length": 166,
+					"date_created": 1659951761,
+					"favorite_count": 49,
+					"download_count": 28,
+					"user_id": 48692484,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 0,
+					"complexity": 0,
+					"instrumentations": [
+						{
+							"name": "Solo"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Accordion"
+						}
+					],
+					"rating": {
+						"rating": 4.9,
+						"count": 8,
+						"count_to_visible": 0
+					},
+					"is_origin": false,
+					"is_official": false,
+					"publisher": null,
+					"parts_names": [
+						"Accordion"
+					],
+					"description": "Solo",
+					"url": "https://musescore.com/",
+					"composer_name": "Composer: Eric Barone\nArranger: Arthur Silas",
+					"mobile_app_web": false,
+					"id_analytics": "xu2jUV8Guyh8VFo6sh2v4GI2Y2IwNGU4N2Q0YmEwZWQxOTFlYTQzMWYwZjA4YjFlYjIzZGMyNzQzZTAyNWU1MzE4YzM2MTZhOGZkOGE3OWbTOFK6thmp3PFzEMLlsXRCimBc4zI2rhBKZVAw1xl6nA==",
+					"is_pdf": 0,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "Another Stardew Valley score :D \r\nI actually managed to arrange this in one day, however I uploaded it today just so I mi [url state=primary href=\"https://musescore.com/user/48692484/scores/8459297\"]Read more[/url]",
+					"href": "https://musescore.com/user/48692484/scores/8459297",
+					"instrumentation_links": [
+						{
+							"url_to_search": "/sheetmusic/solo/accordion",
+							"name": "Solo Accordion"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Accordion",
+							"url_to_search": "/sheetmusic/accordion"
+						}
+					]
+				},
+				{
+					"id": 18836926,
+					"title": "Stardew Valley OST - The Stardrop [b]Saloon[/b] – ConcernedApe",
+					"parts": 1,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/f644308588e6bc601ad0eae5c6518cfc52a7dca9/score_0.png@180x252?no-cache=1743363206&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/f644308588e6bc601ad0eae5c6518cfc52a7dca9/score_0.png@300x420?no-cache=1743363206&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/f644308588e6bc601ad0eae5c6518cfc52a7dca9/score_0.png@500x660?no-cache=1743363206&bgclr=ffffff"
+					},
+					"date_updated": 1743363206,
+					"duration": "01:23",
+					"hits": 293,
+					"comments_count": 0,
+					"user": {
+						"id": 27804924,
+						"name": "Flurry1012",
+						"url": "https://musescore.com/user/27804924",
+						"is_pro": false,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": false
+					},
+					"is_free": 1,
+					"is_public_domain": 0,
+					"pages_count": 2,
+					"length": 83,
+					"date_created": 1719509421,
+					"favorite_count": 4,
+					"download_count": 8,
+					"user_id": 27804924,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 1,
+					"complexity": 2,
+					"instrumentations": [
+						{
+							"name": "Solo"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						}
+					],
+					"rating": {
+						"rating": 0,
+						"count": 2,
+						"count_to_visible": 1
+					},
+					"is_origin": false,
+					"is_official": false,
+					"publisher": null,
+					"parts_names": [
+						"Piano"
+					],
+					"description": "Solo",
+					"url": "https://musescore.com/",
+					"composer_name": "ConcernedApe / Flurry1012",
+					"mobile_app_web": true,
+					"id_analytics": "cEJbWK56aGtxtOTGyUkbRGNkNWQ1NTA4MjRmZjAyMDhjYzI0NDMzMzg1NDUwMTZlMTE1MDI4MjhkYzRiMDVhNTBjMGY3MDQwMDVlZmY2ZmRTw9SMvv5LAaxpH5VjE8yOhjbZQRXMlmd+vhS/teONJg==",
+					"is_pdf": 0,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "A very catchy ragtime piece from the video game, Stardew Valley.\r\n\r\nIf you like this piece, please rate this score. Thank [url state=primary href=\"https://musescore.com/user/27804924/scores/18836926\"]Read more[/url]",
+					"href": "https://musescore.com/user/27804924/scores/18836926",
+					"instrumentation_links": [
+						{
+							"url_to_search": "/sheetmusic/solo/piano",
+							"name": "Solo Piano"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						}
+					]
+				},
+				{
+					"id": 8028792,
+					"title": "Surviv.io [b]saloon[/b] piano transcription – surviv.io  Surviv.io [b]Saloon[/b] [b]Music[/b]",
+					"parts": 1,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/0f4a15d89ea41dcb2b27e38eab6b02d8ac199b02/score_0.png@180x252?no-cache=1715702352&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/0f4a15d89ea41dcb2b27e38eab6b02d8ac199b02/score_0.png@300x420?no-cache=1715702352&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/0f4a15d89ea41dcb2b27e38eab6b02d8ac199b02/score_0.png@500x660?no-cache=1715702352&bgclr=ffffff"
+					},
+					"date_updated": 1715702352,
+					"duration": "00:27",
+					"hits": 60,
+					"comments_count": 0,
+					"user": {
+						"id": 43120052,
+						"name": "Lilyoy79",
+						"url": "https://musescore.com/user/43120052",
+						"is_pro": false,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": false
+					},
+					"is_free": 1,
+					"is_public_domain": 0,
+					"pages_count": 1,
+					"length": 27,
+					"date_created": 1652137303,
+					"favorite_count": 0,
+					"download_count": 0,
+					"user_id": 43120052,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 0,
+					"complexity": 2,
+					"instrumentations": [
+						{
+							"name": "Solo"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						}
+					],
+					"rating": {
+						"rating": 0,
+						"count": 0,
+						"count_to_visible": 3
+					},
+					"is_origin": false,
+					"is_official": false,
+					"publisher": null,
+					"parts_names": [
+						"Piano"
+					],
+					"description": "Solo",
+					"url": "https://musescore.com/",
+					"composer_name": "From the Game Surviv.io",
+					"mobile_app_web": false,
+					"id_analytics": "r4MU3SfHS+jzNoDBHsPQGmZiZTI2NjU2ZWEyZDBlNjQxMDhlYzc2YWI2NTU4NDljZGRhNGVkNGEzNjk5M2NjZDVlZWUyMzYxODQ0ZjJkNDla6ICAjwGTWqCB2F/FOzv8aI1yzStavUr5+6c3UG1R8w==",
+					"is_pdf": 0,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "The song heard in the desert map of surviv.io",
+					"href": "https://musescore.com/user/43120052/scores/8028792",
+					"instrumentation_links": [
+						{
+							"url_to_search": "/sheetmusic/solo/piano",
+							"name": "Solo Piano"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						}
+					]
+				},
+				{
+					"id": 5325942,
+					"title": "fastness [b]saloon[/b]",
+					"parts": 5,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/cae39eca5de390bb895b7ee00963a89da02d7f3f/score_0.png@180x252?no-cache=1715692822&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/cae39eca5de390bb895b7ee00963a89da02d7f3f/score_0.png@300x420?no-cache=1715692822&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/cae39eca5de390bb895b7ee00963a89da02d7f3f/score_0.png@500x660?no-cache=1715692822&bgclr=ffffff"
+					},
+					"date_updated": 1715692822,
+					"duration": "00:58",
+					"hits": 114,
+					"comments_count": 3,
+					"user": {
+						"id": 18906106,
+						"name": "Manuel Gennaro Music",
+						"url": "https://musescore.com/user/18906106",
+						"is_pro": false,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": false
+					},
+					"is_free": 1,
+					"is_public_domain": 0,
+					"pages_count": 10,
+					"length": 58,
+					"date_created": 1543154709,
+					"favorite_count": 7,
+					"download_count": 9,
+					"user_id": 18906106,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 0,
+					"complexity": 0,
+					"instrumentations": [
+						{
+							"name": "Mixed Quintet"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						},
+						{
+							"name": "Cabasa"
+						},
+						{
+							"name": "Drum group"
+						}
+					],
+					"rating": {
+						"rating": 0,
+						"count": 1,
+						"count_to_visible": 2
+					},
+					"is_origin": true,
+					"is_official": false,
+					"publisher": null,
+					"parts_names": [
+						"Piano Honky Tonk",
+						"Piano Honky Tonk",
+						"Piano",
+						"Cabassa",
+						"Batteria"
+					],
+					"description": "Mixed Quintet",
+					"url": "https://musescore.com/",
+					"composer_name": "Andriulli Manuel Gennaro",
+					"mobile_app_web": false,
+					"id_analytics": "US4uDNrKJpPNtrNTK/8oCDM5NTc4N2Y0MTg1MGNjNjg2NmM1MWFmY2E3MDE0NTQ1MjgwZTZhYTBiNGE3MDgwYjk5NDI1ZjJiNTVhNTI0YTcmMF01+U19T0UwgAfVTaMp0bInH3nGq5/Ex7Ht76GWQQ==",
+					"is_pdf": 0,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "yessep",
+					"href": "https://musescore.com/user/18906106/scores/5325942",
+					"instrumentation_links": [
+						{
+							"name": "Mixed Quintet",
+							"url_to_search": "/sheetmusic/mixed-quintet"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						},
+						{
+							"name": "Drum group",
+							"url_to_search": "/sheetmusic/drum-group"
+						},
+						{
+							"name": "Cabasa",
+							"url_to_search": "/sheetmusic/cabasa"
+						}
+					]
+				},
+				{
+					"id": 18673714,
+					"title": "[b]Saloon[/b] Tunes",
+					"parts": 1,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/ea962cb18b67f72d37adac2bd87ff21619d01b6e/score_0.png@180x252?no-cache=1727829737&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/ea962cb18b67f72d37adac2bd87ff21619d01b6e/score_0.png@300x420?no-cache=1727829737&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/ea962cb18b67f72d37adac2bd87ff21619d01b6e/score_0.png@500x660?no-cache=1727829737&bgclr=ffffff"
+					},
+					"date_updated": 1727829737,
+					"duration": "06:44",
+					"hits": 62,
+					"comments_count": 0,
+					"user": {
+						"id": 83292247,
+						"name": "br80cruzen",
+						"url": "https://musescore.com/user/83292247",
+						"is_pro": false,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": false
+					},
+					"is_free": 1,
+					"is_public_domain": 0,
+					"pages_count": 5,
+					"length": 404,
+					"date_created": 1719338030,
+					"favorite_count": 0,
+					"download_count": 1,
+					"user_id": 83292247,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 1,
+					"complexity": 2,
+					"instrumentations": [
+						{
+							"name": "Solo"
+						},
+						{
+							"name": "Piano Duo"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						}
+					],
+					"rating": {
+						"rating": 0,
+						"count": 0,
+						"count_to_visible": 3
+					},
+					"is_origin": true,
+					"is_official": false,
+					"publisher": null,
+					"parts_names": [
+						"Piano"
+					],
+					"description": "Solo",
+					"url": "https://musescore.com/",
+					"composer_name": "Brady S. Cruzen",
+					"mobile_app_web": true,
+					"id_analytics": "REoT0bRMDtFxjklIfagDfWU5NTM0YTAxOTI3NTk1OTA0ZGQ1ZGFhNmYwZmRmMjM1MGU3NjQ0NWNlNDIyN2IwODZlMTdkNWJmMzNkMjczMjkeZ1BrVgICLwGbzRsqbgCbYoW7ig3z7FrDEFmgb4w3tw==",
+					"is_pdf": 0,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "A combination of multiple simple pieces I composed that could be played at a barbershop and/or a bar.\r\nThis piece include [url state=primary href=\"https://musescore.com/user/83292247/scores/18673714\"]Read more[/url]",
+					"href": "https://musescore.com/user/83292247/scores/18673714",
+					"instrumentation_links": [
+						{
+							"url_to_search": "/sheetmusic/solo/piano",
+							"name": "Solo Piano"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						}
+					]
+				},
+				{
+					"id": 20823184,
+					"title": "[b]Saloon[/b] [b]Music[/b]",
+					"parts": 2,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/bcbe7d3802be832df10c0a550bfb8d212f138dbb/score_0.png@180x252?no-cache=1727248852&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/bcbe7d3802be832df10c0a550bfb8d212f138dbb/score_0.png@300x420?no-cache=1727248852&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/bcbe7d3802be832df10c0a550bfb8d212f138dbb/score_0.png@500x660?no-cache=1727248852&bgclr=ffffff"
+					},
+					"date_updated": 1727248852,
+					"duration": "00:26",
+					"hits": 11,
+					"comments_count": 0,
+					"user": {
+						"id": 79422418,
+						"name": "shauroy",
+						"url": "https://musescore.com/user/79422418",
+						"is_pro": false,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": false
+					},
+					"is_free": 1,
+					"is_public_domain": 0,
+					"pages_count": 2,
+					"length": 26,
+					"date_created": 1727248732,
+					"favorite_count": 0,
+					"download_count": 0,
+					"user_id": 79422418,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 0,
+					"complexity": 0,
+					"instrumentations": [
+						{
+							"name": "Piano Duo"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						}
+					],
+					"rating": {
+						"rating": 0,
+						"count": 0,
+						"count_to_visible": 3
+					},
+					"is_origin": false,
+					"is_official": false,
+					"publisher": null,
+					"parts_names": [
+						"Piano",
+						"Honky Tonk Piano"
+					],
+					"description": "Piano Duo",
+					"url": "https://musescore.com/",
+					"composer_name": "",
+					"mobile_app_web": true,
+					"id_analytics": "IF3XV+EWbT5u5+UYvY2AFzRiMGJlODNjY2NiYzNkNjI2YmNlNGNmM2ZlNzAyNDUzN2EzZTdlMmUxM2VhMTNjMTg5NTEyODNmNDQzYjE2MDb8eFtZOTCReyx72MKI8ghawRtyid7Dna6jAHX9mq7ktw==",
+					"is_pdf": 0,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "",
+					"href": "https://musescore.com/user/79422418/scores/20823184",
+					"instrumentation_links": [
+						{
+							"name": "Piano Duo",
+							"url_to_search": "/sheetmusic/piano-duo"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						}
+					]
+				},
+				{
+					"id": 6591186,
+					"title": "Everything Is Awsome",
+					"parts": 1,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/6d1d746700103aabe9602f35c1e0048c947b14ac/score_0.png@180x252?no-cache=1715698667&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/6d1d746700103aabe9602f35c1e0048c947b14ac/score_0.png@300x420?no-cache=1715698667&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/6d1d746700103aabe9602f35c1e0048c947b14ac/score_0.png@500x660?no-cache=1715698667&bgclr=ffffff"
+					},
+					"date_updated": 1715698667,
+					"duration": "01:51",
+					"hits": 555,
+					"comments_count": 0,
+					"user": {
+						"id": 33925355,
+						"name": "Charlietintin",
+						"url": "https://musescore.com/piano_rags_lad",
+						"is_pro": false,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": false
+					},
+					"is_free": 1,
+					"is_public_domain": 0,
+					"pages_count": 3,
+					"length": 111,
+					"date_created": 1612376708,
+					"favorite_count": 15,
+					"download_count": 26,
+					"user_id": 33925355,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 0,
+					"complexity": 2,
+					"instrumentations": [
+						{
+							"name": "Solo"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						}
+					],
+					"rating": {
+						"rating": 4.84,
+						"count": 10,
+						"count_to_visible": 0
+					},
+					"is_origin": false,
+					"is_official": false,
+					"publisher": null,
+					"parts_names": [
+						"Honky Tonk Piano"
+					],
+					"description": "Solo",
+					"url": "https://musescore.com/",
+					"composer_name": "Music by Shawn Patterson Lyrics by Shawn Patterson, Andy Sambeg, Akiva Schaffeer, Jorma Taccon, Joshua Bartholomew and Lisa Harrinton",
+					"mobile_app_web": false,
+					"id_analytics": "S7OvCCeGhw/u4rASnrv7VTE4NWU2ODM0NDgyYzI4NzZhZGVlN2YwMWU0Nzc0NzY5OTk0YzAwMjUxZGMyYTNiMTUwZTVjYTc1NGVhMGM1M2VzXNcgZi34to+UYAEPfQkqrI1/mUUO7RP5mnVK8Fc08w==",
+					"is_pdf": 0,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "",
+					"href": "https://musescore.com/user/33925355/scores/6591186",
+					"instrumentation_links": [
+						{
+							"url_to_search": "/sheetmusic/solo/piano",
+							"name": "Solo Piano"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						}
+					]
+				}
+			],
+			"see_other_scores": [],
+			"featured_scores": [],
+			"pagination": {
+				"pageParam": "page",
+				"pageSizeParam": "per-page",
+				"forcePageParam": true,
+				"route": null,
+				"params": null,
+				"urlManager": null,
+				"validatePage": false,
+				"totalCount": 12,
+				"defaultPageSize": 20,
+				"pageSizeLimit": null
+			},
+			"pagination_url": "?page=to_be_replaced&text=Saloon+Music",
+			"request": {
+				"text": "Saloon Music",
+				"page": 1,
+				"page_size": 20,
+				"sort": "relevance",
+				"filters": 0,
+				"instrumentation": [],
+				"instrumentation_any": 0,
+				"genres": [],
+				"instrument": [],
+				"instrument_any": 0,
+				"parts": 0,
+				"parts_min": 0,
+				"parts_max": 0,
+				"license": [],
+				"user_id": 0,
+				"artist_id": 0,
+				"song_id": 0,
+				"hub_alias": 0,
+				"max_file_version": 0,
+				"nocache": 0,
+				"visible_to": 0,
+				"recording_type": [],
+				"complexity": [],
+				"publisher": [],
+				"score_format": [],
+				"playlist_id": 0,
+				"artist_ids": [],
+				"excluded_publisher": [],
+				"excluded_ids": [],
+				"tags": 0,
+				"country": "HK",
+				"region": 0,
+				"type": [],
+				"ids": [],
+				"show_courses": true,
+				"sort_selected_by_user": 0,
+				"experimentVariations": []
+			},
+			"query_filters": [],
+			"query_text": "Saloon Music",
+			"query_page": 1,
+			"query_order": "relevance",
+			"query_parts": 0,
+			"query_license": [],
+			"is_main_page": false,
+			"hub_list": [
+				{
+					"id": 160,
+					"title": "Happy Birthday",
+					"alias": "holiday/happy-birthday",
+					"weight": 0,
+					"parent_id": 154,
+					"mob_image": "",
+					"background_color": "#000000",
+					"visible": 1,
+					"imageBase": "/public/img/musescore/hub_icons/illustration-holidays",
+					"desktopImageBase": "",
+					"desktop_image": "",
+					"stat": {
+						"followers_count": 3431,
+						"scores_count": 0
+					}
+				},
+				{
+					"id": 190,
+					"title": "Christian",
+					"alias": "world-music/christian",
+					"weight": 0,
+					"parent_id": 172,
+					"mob_image": "",
+					"background_color": "#000000",
+					"visible": 1,
+					"imageBase": "/public/img/musescore/hub_icons/illustration-world-music",
+					"desktopImageBase": "",
+					"desktop_image": "",
+					"stat": {
+						"followers_count": 6597,
+						"scores_count": 0
+					}
+				},
+				{
+					"id": 202,
+					"title": "Pirates Of The Caribbean",
+					"alias": "movie-and-tv/pirates-of-the-caribbean",
+					"weight": 0,
+					"parent_id": 199,
+					"mob_image": "",
+					"background_color": "#000000",
+					"visible": 1,
+					"imageBase": "/public/img/musescore/hub_icons/illustration-movies",
+					"desktopImageBase": "",
+					"desktop_image": "",
+					"stat": {
+						"followers_count": 8498,
+						"scores_count": 0
+					}
+				},
+				{
+					"id": 208,
+					"title": "Harry Potter",
+					"alias": "movie-and-tv/harry-potter",
+					"weight": 0,
+					"parent_id": 199,
+					"mob_image": "",
+					"background_color": "#000000",
+					"visible": 1,
+					"imageBase": "/public/img/musescore/hub_icons/illustration-movies",
+					"desktopImageBase": "",
+					"desktop_image": "",
+					"stat": {
+						"followers_count": 8883,
+						"scores_count": 0
+					}
+				},
+				{
+					"id": 214,
+					"title": "Interstellar",
+					"alias": "movie-and-tv/interstellar",
+					"weight": 0,
+					"parent_id": 199,
+					"mob_image": "",
+					"background_color": "#000000",
+					"visible": 1,
+					"imageBase": "/public/img/musescore/hub_icons/illustration-movies",
+					"desktopImageBase": "",
+					"desktop_image": "",
+					"stat": {
+						"followers_count": 6480,
+						"scores_count": 0
+					}
+				},
+				{
+					"id": 244,
+					"title": "Bohemian Rhapsody",
+					"alias": "movie-and-tv/bohemian-rhapsody",
+					"weight": 0,
+					"parent_id": 199,
+					"mob_image": "",
+					"background_color": "#000000",
+					"visible": 1,
+					"imageBase": "/public/img/musescore/hub_icons/illustration-movies",
+					"desktopImageBase": "",
+					"desktop_image": "",
+					"stat": {
+						"followers_count": 8246,
+						"scores_count": 0
+					}
+				},
+				{
+					"id": 265,
+					"title": "La La Land",
+					"alias": "movie-and-tv/la-la-land",
+					"weight": 0,
+					"parent_id": 199,
+					"mob_image": "",
+					"background_color": "#000000",
+					"visible": 1,
+					"imageBase": "/public/img/musescore/hub_icons/illustration-movies",
+					"desktopImageBase": "",
+					"desktop_image": "",
+					"stat": {
+						"followers_count": 4634,
+						"scores_count": 0
+					}
+				},
+				{
+					"id": 376,
+					"title": "Minecraft",
+					"alias": "video-games/minecraft",
+					"weight": 0,
+					"parent_id": 373,
+					"mob_image": "",
+					"background_color": "#000000",
+					"visible": 1,
+					"imageBase": "/public/img/musescore/hub_icons/illustration-games",
+					"desktopImageBase": "",
+					"desktop_image": "",
+					"stat": {
+						"followers_count": 7259,
+						"scores_count": 0
+					}
+				},
+				{
+					"id": 388,
+					"title": "The Legend Of Zelda",
+					"alias": "video-games/the-legend-of-zelda",
+					"weight": 0,
+					"parent_id": 373,
+					"mob_image": "",
+					"background_color": "#000000",
+					"visible": 1,
+					"imageBase": "/public/img/musescore/hub_icons/illustration-games",
+					"desktopImageBase": "",
+					"desktop_image": "",
+					"stat": {
+						"followers_count": 6904,
+						"scores_count": 0
+					}
+				},
+				{
+					"id": 457,
+					"title": "Toy Story",
+					"alias": "cartoons/toy-story",
+					"weight": 0,
+					"parent_id": 439,
+					"mob_image": "",
+					"background_color": "#000000",
+					"visible": 1,
+					"imageBase": "/public/img/musescore/hub_icons/illustration-disney",
+					"desktopImageBase": "",
+					"desktop_image": "",
+					"stat": {
+						"followers_count": 2807,
+						"scores_count": 0
+					}
+				},
+				{
+					"id": 475,
+					"title": "Howl's Moving Castle",
+					"alias": "anime/howls-moving-castle",
+					"weight": 0,
+					"parent_id": 472,
+					"mob_image": "",
+					"background_color": "#000000",
+					"visible": 1,
+					"imageBase": "/public/img/musescore/hub_icons/illustration-anime",
+					"desktopImageBase": "",
+					"desktop_image": "",
+					"stat": {
+						"followers_count": 8090,
+						"scores_count": 0
+					}
+				},
+				{
+					"id": 541,
+					"title": "Christmas",
+					"alias": "holiday/christmas",
+					"weight": 0,
+					"parent_id": 154,
+					"mob_image": "",
+					"background_color": "#000000",
+					"visible": 1,
+					"imageBase": "/public/img/musescore/hub_icons/icon-christmas2",
+					"desktopImageBase": "",
+					"desktop_image": "",
+					"stat": {
+						"followers_count": 5265,
+						"scores_count": 0
+					}
+				},
+				{
+					"id": 550,
+					"title": "Disney",
+					"alias": "genre/disney",
+					"weight": 0,
+					"parent_id": 439,
+					"mob_image": "",
+					"background_color": "#000000",
+					"visible": 1,
+					"imageBase": "/public/img/musescore/hub_icons/illustration-other",
+					"desktopImageBase": "",
+					"desktop_image": "",
+					"stat": {
+						"followers_count": 68040,
+						"scores_count": 0
+					}
+				},
+				{
+					"id": 373,
+					"title": "Video Games",
+					"alias": "video-games",
+					"weight": 30,
+					"parent_id": 0,
+					"mob_image": "",
+					"background_color": "#000000",
+					"visible": 1,
+					"imageBase": "/public/img/musescore/hub_icons/illustration-games",
+					"desktopImageBase": "https://musescore.com/static/public/img/musescore/hub_icons/illustration-games.svg",
+					"desktop_image": "static/public/img/musescore/hub_icons/illustration-games.svg",
+					"stat": {
+						"followers_count": 77517,
+						"scores_count": 0
+					}
+				},
+				{
+					"id": 577,
+					"title": "Japan",
+					"alias": "japan",
+					"weight": 100,
+					"parent_id": 0,
+					"mob_image": "",
+					"background_color": "#000000",
+					"visible": 1,
+					"imageBase": "",
+					"desktopImageBase": "",
+					"desktop_image": "",
+					"stat": {
+						"followers_count": 25,
+						"scores_count": 0
+					}
+				}
+			],
+			"featured_hub_list": [
+				{
+					"imageBase": "/public/img/musescore/hub_icons/icon-disney",
+					"title": "Disney",
+					"alias": "disney",
+					"id": 1
+				},
+				{
+					"imageBase": "/public/img/musescore/hub_icons/icon-piano",
+					"title": "Piano",
+					"alias": "piano",
+					"id": 2
+				},
+				{
+					"imageBase": "/public/img/musescore/hub_icons/icon-videogameandtv",
+					"title": "Video games",
+					"alias": "video_games",
+					"id": 3
+				},
+				{
+					"imageBase": "/public/img/musescore/hub_icons/icon-saxophone",
+					"title": "Saxophone",
+					"alias": "saxophone",
+					"id": 4
+				},
+				{
+					"imageBase": "/public/img/musescore/hub_icons/icon-woodwinds",
+					"title": "Woodwinds",
+					"alias": "woodwinds",
+					"id": 5
+				},
+				{
+					"imageBase": "/public/img/musescore/hub_icons/icon-japan",
+					"title": "Japan",
+					"alias": "japan",
+					"id": 7
+				},
+				{
+					"imageBase": "/public/img/musescore/hub_icons/icon-strings",
+					"title": "Strings",
+					"alias": "strings",
+					"id": 8
+				}
+			],
+			"hub": null,
+			"is_hub_subscribed": false,
+			"user_in_default_group": false,
+			"groups_discussions": {
+				"groups": [],
+				"discussions": []
+			},
+			"genres": [
+				{
+					"id": 216,
+					"name": "classical",
+					"parent_id": 0,
+					"aliases": [
+						"classical music",
+						"western classical music"
+					],
+					"name_stripped": "classical",
+					"root_genre_id": 0
+				},
+				{
+					"id": 49,
+					"name": "country",
+					"parent_id": 0,
+					"aliases": null,
+					"name_stripped": "country",
+					"root_genre_id": 0
+				},
+				{
+					"id": 666,
+					"name": "folk",
+					"parent_id": 0,
+					"aliases": null,
+					"name_stripped": "folk",
+					"root_genre_id": 0
+				},
+				{
+					"id": 680,
+					"name": "soundtrack",
+					"parent_id": 0,
+					"aliases": [
+						"soundtracks"
+					],
+					"name_stripped": "soundtrack",
+					"root_genre_id": 0
+				},
+				{
+					"id": 195,
+					"name": "world music",
+					"parent_id": 0,
+					"aliases": [
+						"global music",
+						"international music",
+						"international"
+					],
+					"name_stripped": "world-music",
+					"root_genre_id": 0
+				}
+			],
+			"courses": [],
+			"schema": [],
+			"clear_all_button": false,
+			"no_result_scores": [],
+			"title": "Search results for 'Saloon Music' | Free sheet music | Download PDF or print on Musescore.com ",
+			"title_on_page": "Explore sheet music",
+			"span_title_on_page": "",
+			"description": "Share, download and print free sheet music with the world's largest community of sheet music creators, composers, performers, music teachers, students, beginners, artists, and other musicians with over 1,500,000 digital sheet music to play, practice, learn and enjoy.",
+			"base_url": "/sheetmusic",
+			"favorite_score_ids": [],
+			"top_scores_of_the_week": [],
+			"top_scores_of_the_week_type": "default",
+			"playlists_selected": [
+				{
+					"id": "aqfax",
+					"public": 1,
+					"url": "/user/35925480/playlists/trending-songs--aqfax",
+					"title": "Trending songs",
+					"subtitle": "",
+					"description": "",
+					"user": {
+						"id": 35925480,
+						"name": "MuseScore Team",
+						"url": "https://musescore.com/user/35925480",
+						"image": "https://musescore.com/static/musescore/userdata/avatar/1/5/a/35925480.jpg@150x150?cache=1719405268",
+						"is_pro": false,
+						"is_staff": true,
+						"is_moderator": false,
+						"cover_url": "https://musescore.com/static/musescore/userdata/cover/8/1/d/35925480.jpg?cache=0",
+						"has_cover": false,
+						"date_created": 1598271012,
+						"is_publisher": false,
+						"_links": {
+							"self": {
+								"href": "https://musescore.com/user/35925480"
+							}
+						}
+					},
+					"scores_cnt": 35,
+					"image_type": 2,
+					"image_url": "https://musescore.com/static/musescore/userdata/playlists/d/3/3/2a818.png?date=1741968381",
+					"is_favorite": false,
+					"date_created": 1731344504,
+					"color": null,
+					"text_color_type": 1,
+					"date_scores_updated": 1741967518,
+					"is_user_musescore_team": true,
+					"palette_color_type": 6
+				},
+				{
+					"id": "Qkf2o",
+					"public": 1,
+					"url": "/user/35925480/playlists/film-music-favourites--Qkf2o",
+					"title": "Film Music",
+					"subtitle": "Your favorite sountracks",
+					"description": "Enjoy playing the main themes from worldwide's famous movies.",
+					"user": {
+						"id": 35925480,
+						"name": "MuseScore Team",
+						"url": "https://musescore.com/user/35925480",
+						"image": "https://musescore.com/static/musescore/userdata/avatar/1/5/a/35925480.jpg@150x150?cache=1719405268",
+						"is_pro": false,
+						"is_staff": true,
+						"is_moderator": false,
+						"cover_url": "https://musescore.com/static/musescore/userdata/cover/8/1/d/35925480.jpg?cache=0",
+						"has_cover": false,
+						"date_created": 1598271012,
+						"is_publisher": false,
+						"_links": {
+							"self": {
+								"href": "https://musescore.com/user/35925480"
+							}
+						}
+					},
+					"scores_cnt": 20,
+					"image_type": 2,
+					"image_url": "https://musescore.com/static/musescore/userdata/playlists/0/b/a/961d7.png?date=1741968537",
+					"is_favorite": false,
+					"date_created": 1737122589,
+					"color": null,
+					"text_color_type": 1,
+					"date_scores_updated": 1737122604,
+					"is_user_musescore_team": true,
+					"palette_color_type": 4
+				},
+				{
+					"id": "GNfGg",
+					"public": 1,
+					"url": "/user/35925480/playlists/for-gamers--GNfGg",
+					"title": "Video Games",
+					"subtitle": "Biggest hits for piano",
+					"description": "Level up your music game with these epic video game scores for piano!",
+					"user": {
+						"id": 35925480,
+						"name": "MuseScore Team",
+						"url": "https://musescore.com/user/35925480",
+						"image": "https://musescore.com/static/musescore/userdata/avatar/1/5/a/35925480.jpg@150x150?cache=1719405268",
+						"is_pro": false,
+						"is_staff": true,
+						"is_moderator": false,
+						"cover_url": "https://musescore.com/static/musescore/userdata/cover/8/1/d/35925480.jpg?cache=0",
+						"has_cover": false,
+						"date_created": 1598271012,
+						"is_publisher": false,
+						"_links": {
+							"self": {
+								"href": "https://musescore.com/user/35925480"
+							}
+						}
+					},
+					"scores_cnt": 20,
+					"image_type": 2,
+					"image_url": "https://musescore.com/static/musescore/userdata/playlists/0/5/0/79f4d.png?date=1741968697",
+					"is_favorite": false,
+					"date_created": 1737037909,
+					"color": null,
+					"text_color_type": 1,
+					"date_scores_updated": 1737122626,
+					"is_user_musescore_team": true,
+					"palette_color_type": 5
+				},
+				{
+					"id": "l6Xfk",
+					"public": 1,
+					"url": "/user/35925480/playlists/taylor-swift--l6Xfk",
+					"title": "Taylor Swift",
+					"subtitle": "Piano solo and with Voice",
+					"description": "Experience Taylor Swift's music with this collection from early country hits to chart-topping pop anthems.",
+					"user": {
+						"id": 35925480,
+						"name": "MuseScore Team",
+						"url": "https://musescore.com/user/35925480",
+						"image": "https://musescore.com/static/musescore/userdata/avatar/1/5/a/35925480.jpg@150x150?cache=1719405268",
+						"is_pro": false,
+						"is_staff": true,
+						"is_moderator": false,
+						"cover_url": "https://musescore.com/static/musescore/userdata/cover/8/1/d/35925480.jpg?cache=0",
+						"has_cover": false,
+						"date_created": 1598271012,
+						"is_publisher": false,
+						"_links": {
+							"self": {
+								"href": "https://musescore.com/user/35925480"
+							}
+						}
+					},
+					"scores_cnt": 10,
+					"image_type": 2,
+					"image_url": "https://musescore.com/static/musescore/userdata/playlists/7/4/4/04674.png?date=1726839331",
+					"is_favorite": false,
+					"date_created": 1722955668,
+					"color": null,
+					"text_color_type": 1,
+					"date_scores_updated": 1725808775,
+					"is_user_musescore_team": true,
+					"palette_color_type": 2
+				},
+				{
+					"id": "Bw5fL",
+					"public": 1,
+					"url": "/user/35925480/playlists/piano--Bw5fL",
+					"title": "Piano",
+					"subtitle": "",
+					"description": "Nail essential techniques, and play full songs, building your skills and confidence along the way.",
+					"user": {
+						"id": 35925480,
+						"name": "MuseScore Team",
+						"url": "https://musescore.com/user/35925480",
+						"image": "https://musescore.com/static/musescore/userdata/avatar/1/5/a/35925480.jpg@150x150?cache=1719405268",
+						"is_pro": false,
+						"is_staff": true,
+						"is_moderator": false,
+						"cover_url": "https://musescore.com/static/musescore/userdata/cover/8/1/d/35925480.jpg?cache=0",
+						"has_cover": false,
+						"date_created": 1598271012,
+						"is_publisher": false,
+						"_links": {
+							"self": {
+								"href": "https://musescore.com/user/35925480"
+							}
+						}
+					},
+					"scores_cnt": 10,
+					"image_type": 2,
+					"image_url": "https://musescore.com/static/musescore/userdata/playlists/f/5/e/442d3.png?date=1741970662",
+					"is_favorite": false,
+					"date_created": 1722955755,
+					"color": null,
+					"text_color_type": 1,
+					"date_scores_updated": 1726640484,
+					"is_user_musescore_team": true,
+					"palette_color_type": 6
+				},
+				{
+					"id": "l30fv",
+					"public": 1,
+					"url": "/user/35925480/playlists/disney--l30fv",
+					"title": "Disney",
+					"subtitle": "Favorite tracks for piano",
+					"description": "Relive cherished memories and create new ones with this enchanting collection of Disney piano sheet music.",
+					"user": {
+						"id": 35925480,
+						"name": "MuseScore Team",
+						"url": "https://musescore.com/user/35925480",
+						"image": "https://musescore.com/static/musescore/userdata/avatar/1/5/a/35925480.jpg@150x150?cache=1719405268",
+						"is_pro": false,
+						"is_staff": true,
+						"is_moderator": false,
+						"cover_url": "https://musescore.com/static/musescore/userdata/cover/8/1/d/35925480.jpg?cache=0",
+						"has_cover": false,
+						"date_created": 1598271012,
+						"is_publisher": false,
+						"_links": {
+							"self": {
+								"href": "https://musescore.com/user/35925480"
+							}
+						}
+					},
+					"scores_cnt": 10,
+					"image_type": 1,
+					"image_url": "https://musescore.com/static/musescore/userdata/playlists/a/d/1/c8240.png?date=1738344723",
+					"is_favorite": false,
+					"date_created": 1722955731,
+					"color": null,
+					"text_color_type": 0,
+					"date_scores_updated": 1726639994,
+					"is_user_musescore_team": true,
+					"palette_color_type": null
+				},
+				{
+					"id": "J73f8",
+					"public": 1,
+					"url": "/user/35925480/playlists/musescore-top-20--J73f8",
+					"title": "MuseScore Top 20",
+					"subtitle": "",
+					"description": "Discover the 20 most-loved piano pieces trending with the MuseScore community. ",
+					"user": {
+						"id": 35925480,
+						"name": "MuseScore Team",
+						"url": "https://musescore.com/user/35925480",
+						"image": "https://musescore.com/static/musescore/userdata/avatar/1/5/a/35925480.jpg@150x150?cache=1719405268",
+						"is_pro": false,
+						"is_staff": true,
+						"is_moderator": false,
+						"cover_url": "https://musescore.com/static/musescore/userdata/cover/8/1/d/35925480.jpg?cache=0",
+						"has_cover": false,
+						"date_created": 1598271012,
+						"is_publisher": false,
+						"_links": {
+							"self": {
+								"href": "https://musescore.com/user/35925480"
+							}
+						}
+					},
+					"scores_cnt": 20,
+					"image_type": 3,
+					"image_url": "https://musescore.com/static/musescore/userdata/playlists/9/f/e/6986d.png?date=1741970992",
+					"is_favorite": false,
+					"date_created": 1724077455,
+					"color": "#320464",
+					"text_color_type": 0,
+					"date_scores_updated": 1748318583,
+					"is_user_musescore_team": true,
+					"palette_color_type": null
+				},
+				{
+					"id": "J8afA",
+					"public": 1,
+					"url": "/user/35925480/playlists/piano-classics--J8afA",
+					"title": "Piano Classics",
+					"subtitle": "",
+					"description": "Play iconic classical pieces, build your skills, and gain confidence on the keys. ",
+					"user": {
+						"id": 35925480,
+						"name": "MuseScore Team",
+						"url": "https://musescore.com/user/35925480",
+						"image": "https://musescore.com/static/musescore/userdata/avatar/1/5/a/35925480.jpg@150x150?cache=1719405268",
+						"is_pro": false,
+						"is_staff": true,
+						"is_moderator": false,
+						"cover_url": "https://musescore.com/static/musescore/userdata/cover/8/1/d/35925480.jpg?cache=0",
+						"has_cover": false,
+						"date_created": 1598271012,
+						"is_publisher": false,
+						"_links": {
+							"self": {
+								"href": "https://musescore.com/user/35925480"
+							}
+						}
+					},
+					"scores_cnt": 20,
+					"image_type": 2,
+					"image_url": "https://musescore.com/static/musescore/userdata/playlists/8/4/d/fd7c5.png?date=1741971244",
+					"is_favorite": false,
+					"date_created": 1724083163,
+					"color": null,
+					"text_color_type": 1,
+					"date_scores_updated": 1746698580,
+					"is_user_musescore_team": true,
+					"palette_color_type": 4
+				},
+				{
+					"id": "Bpef7",
+					"public": 1,
+					"url": "/user/35925480/playlists/the-beatles--Bpef7",
+					"title": "The Beatles",
+					"subtitle": "Legendary songs for piano",
+					"description": "This beginner-friendly collection will get you playing ‘Hey Jude’ in no time.",
+					"user": {
+						"id": 35925480,
+						"name": "MuseScore Team",
+						"url": "https://musescore.com/user/35925480",
+						"image": "https://musescore.com/static/musescore/userdata/avatar/1/5/a/35925480.jpg@150x150?cache=1719405268",
+						"is_pro": false,
+						"is_staff": true,
+						"is_moderator": false,
+						"cover_url": "https://musescore.com/static/musescore/userdata/cover/8/1/d/35925480.jpg?cache=0",
+						"has_cover": false,
+						"date_created": 1598271012,
+						"is_publisher": false,
+						"_links": {
+							"self": {
+								"href": "https://musescore.com/user/35925480"
+							}
+						}
+					},
+					"scores_cnt": 10,
+					"image_type": 2,
+					"image_url": "https://musescore.com/static/musescore/userdata/playlists/0/9/2/04d6f.png?date=1726498787",
+					"is_favorite": false,
+					"date_created": 1722955833,
+					"color": null,
+					"text_color_type": 1,
+					"date_scores_updated": 1726599971,
+					"is_user_musescore_team": true,
+					"palette_color_type": 1
+				},
+				{
+					"id": "PoQfQ",
+					"public": 1,
+					"url": "/user/35925480/playlists/star-wars--PoQfQ",
+					"title": "Star Wars",
+					"subtitle": "",
+					"description": "Channel the power of The Force through epic scores arranged for piano, symphonic band, and orchestra.",
+					"user": {
+						"id": 35925480,
+						"name": "MuseScore Team",
+						"url": "https://musescore.com/user/35925480",
+						"image": "https://musescore.com/static/musescore/userdata/avatar/1/5/a/35925480.jpg@150x150?cache=1719405268",
+						"is_pro": false,
+						"is_staff": true,
+						"is_moderator": false,
+						"cover_url": "https://musescore.com/static/musescore/userdata/cover/8/1/d/35925480.jpg?cache=0",
+						"has_cover": false,
+						"date_created": 1598271012,
+						"is_publisher": false,
+						"_links": {
+							"self": {
+								"href": "https://musescore.com/user/35925480"
+							}
+						}
+					},
+					"scores_cnt": 20,
+					"image_type": 3,
+					"image_url": "https://musescore.com/static/musescore/userdata/playlists/8/2/a/daa9f.png?date=1726499168",
+					"is_favorite": false,
+					"date_created": 1722955892,
+					"color": "#000",
+					"text_color_type": 0,
+					"date_scores_updated": 1726659721,
+					"is_user_musescore_team": true,
+					"palette_color_type": null
+				},
+				{
+					"id": "JYDfQ",
+					"public": 1,
+					"url": "/user/35925480/playlists/go-viral--JYDfQ",
+					"title": "Go Viral",
+					"subtitle": "",
+					"description": "This year's hottest hits – straight from your feed to your fingertips!",
+					"user": {
+						"id": 35925480,
+						"name": "MuseScore Team",
+						"url": "https://musescore.com/user/35925480",
+						"image": "https://musescore.com/static/musescore/userdata/avatar/1/5/a/35925480.jpg@150x150?cache=1719405268",
+						"is_pro": false,
+						"is_staff": true,
+						"is_moderator": false,
+						"cover_url": "https://musescore.com/static/musescore/userdata/cover/8/1/d/35925480.jpg?cache=0",
+						"has_cover": false,
+						"date_created": 1598271012,
+						"is_publisher": false,
+						"_links": {
+							"self": {
+								"href": "https://musescore.com/user/35925480"
+							}
+						}
+					},
+					"scores_cnt": 10,
+					"image_type": 2,
+					"image_url": "https://musescore.com/static/musescore/userdata/playlists/e/c/0/5c1c2.png?date=1741971558",
+					"is_favorite": false,
+					"date_created": 1726839431,
+					"color": null,
+					"text_color_type": 1,
+					"date_scores_updated": 1726839517,
+					"is_user_musescore_team": true,
+					"palette_color_type": 3
+				},
+				{
+					"id": "Pxvf6",
+					"public": 1,
+					"url": "/user/35925480/playlists/marvel--Pxvf6",
+					"title": "Marvel",
+					"subtitle": "",
+					"description": "Channel your inner hero and bring the Marvel Cinematic Universe to life on your piano.",
+					"user": {
+						"id": 35925480,
+						"name": "MuseScore Team",
+						"url": "https://musescore.com/user/35925480",
+						"image": "https://musescore.com/static/musescore/userdata/avatar/1/5/a/35925480.jpg@150x150?cache=1719405268",
+						"is_pro": false,
+						"is_staff": true,
+						"is_moderator": false,
+						"cover_url": "https://musescore.com/static/musescore/userdata/cover/8/1/d/35925480.jpg?cache=0",
+						"has_cover": false,
+						"date_created": 1598271012,
+						"is_publisher": false,
+						"_links": {
+							"self": {
+								"href": "https://musescore.com/user/35925480"
+							}
+						}
+					},
+					"scores_cnt": 10,
+					"image_type": 3,
+					"image_url": "https://musescore.com/static/musescore/userdata/playlists/1/4/d/07b9a.png?date=1741971735",
+					"is_favorite": false,
+					"date_created": 1722955944,
+					"color": "#4F0A16",
+					"text_color_type": 0,
+					"date_scores_updated": 1726641186,
+					"is_user_musescore_team": true,
+					"palette_color_type": null
+				}
+			],
+			"sets": [],
+			"scores_to_be_promoted": [
+				{
+					"id": 17907490,
+					"title": "Please Please Please - Sabrina Carpenter (Piano-Vocal-Guitar)",
+					"parts": 3,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/42cabab2b4bd2dafc8425d43f725ad1a1e914aba/score_0.png@180x252?no-cache=1739080742&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/42cabab2b4bd2dafc8425d43f725ad1a1e914aba/score_0.png@300x420?no-cache=1739080742&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/42cabab2b4bd2dafc8425d43f725ad1a1e914aba/score_0.png@500x660?no-cache=1739080742&bgclr=ffffff"
+					},
+					"date_updated": 1739080742,
+					"duration": "05:00",
+					"hits": 5294,
+					"comments_count": 0,
+					"user": {
+						"id": 39593079,
+						"name": "Hal Leonard",
+						"url": "https://musescore.com/official_scores",
+						"is_pro": true,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": true
+					},
+					"is_free": 0,
+					"is_public_domain": 0,
+					"pages_count": 6,
+					"length": 300,
+					"date_created": 1718353537,
+					"favorite_count": 129,
+					"download_count": 14,
+					"user_id": 39593079,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 0,
+					"complexity": 0,
+					"instrumentations": [
+						{
+							"name": "Piano-Voice-Guitar"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						},
+						{
+							"name": "Vocals"
+						},
+						{
+							"name": "Guitar"
+						}
+					],
+					"rating": {
+						"rating": 4.77,
+						"count": 10,
+						"count_to_visible": 0
+					},
+					"is_origin": false,
+					"is_official": true,
+					"publisher": {
+						"publisher_id": 3
+					},
+					"parts_names": [],
+					"description": "Piano-Voice-Guitar",
+					"url": "https://musescore.com/",
+					"composer_name": "",
+					"mobile_app_web": false,
+					"id_analytics": "NgbJgX9Dlc2BvcVUGaMqKzllMTMzZGI1OWRmY2I4ODBlNmFkYmU2NTZlNjY4ZWRkNDc0ZGQzODFkMjg4MTA1NWUxY2MzNDA5ZmFjMDU3NDdkMGMBKl23gIw/XEp5bjvTshQ3jr+YkYGVbf7LAfR2Dw==",
+					"is_pdf": 1,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "Artist: Sabrina Carpenter\nWriter: Jack Antonoff, Amy Allen, Sabrina Carpenter\nArrangement Format: Piano-Vocal-Guitar\nCate [url state=primary href=\"https://musescore.com/user/39593079/scores/17907490\"]Read more[/url]",
+					"href": "https://musescore.com/user/39593079/scores/17907490",
+					"instrumentation_links": [
+						{
+							"name": "Piano-Voice-Guitar",
+							"url_to_search": "/sheetmusic/piano-voice-guitar"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						},
+						{
+							"name": "Vocals",
+							"url_to_search": "/sheetmusic/vocals"
+						},
+						{
+							"name": "Guitar",
+							"url_to_search": "/sheetmusic/guitar"
+						}
+					]
+				},
+				{
+					"id": 17038099,
+					"title": "Birds Of A Feather – Billie Eilish (Piano Cover by Stanislav Kovalevskiy)",
+					"parts": 1,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/763d5c95b84a1faa6e9a14dca55fcff3a6dfa165/score_0.png@180x252?no-cache=1748304191&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/763d5c95b84a1faa6e9a14dca55fcff3a6dfa165/score_0.png@300x420?no-cache=1748304191&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/763d5c95b84a1faa6e9a14dca55fcff3a6dfa165/score_0.png@500x660?no-cache=1748304191&bgclr=ffffff"
+					},
+					"date_updated": 1748304191,
+					"duration": "03:33",
+					"hits": 115592,
+					"comments_count": 36,
+					"user": {
+						"id": 63459634,
+						"name": "NewRetroWave",
+						"url": "https://musescore.com/user/63459634",
+						"is_pro": false,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": false
+					},
+					"is_free": 1,
+					"is_public_domain": 0,
+					"pages_count": 4,
+					"length": 213,
+					"date_created": 1716162486,
+					"favorite_count": 2110,
+					"download_count": 2117,
+					"user_id": 63459634,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 0,
+					"complexity": 1,
+					"instrumentations": [
+						{
+							"name": "Solo"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						}
+					],
+					"rating": {
+						"rating": 4.53,
+						"count": 239,
+						"count_to_visible": 0
+					},
+					"is_origin": false,
+					"is_official": false,
+					"publisher": null,
+					"parts_names": [
+						"Фортепиано"
+					],
+					"description": "Solo",
+					"url": "https://musescore.com/",
+					"composer_name": "Billie Eilish\n",
+					"mobile_app_web": true,
+					"id_analytics": "pOLmF/5YWb1zJohHEJUmUmQ5ODhkMzVkMWYwMjFmNGE3OWYxY2ZiMDYwMGMxZmVlZTY1M2M1Y2U0MjBkMzY1ZjEzM2ExMzk3ZTVjMDYyZGScw4SBBbhEr8ILW/KFMjqucnbrTriGNGLz2OXjnvAI9g==",
+					"is_pdf": 0,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "Request your score in my Discord:\r\nhttps://discord.gg/dj9XSbS8Jn\r\n\r\nMy Youtube Channel:\r\nhttps://www.youtube.com/TripleCa [url state=primary href=\"https://musescore.com/user/63459634/scores/17038099\"]Read more[/url]",
+					"href": "https://musescore.com/user/63459634/scores/17038099",
+					"instrumentation_links": [
+						{
+							"url_to_search": "/sheetmusic/solo/piano",
+							"name": "Solo Piano"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						}
+					]
+				},
+				{
+					"id": 6873209,
+					"title": "good 4 u – Olivia Rodrigo",
+					"parts": 1,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/02a6b4b12eac331276af05fe4e5ed627aaa463f5/score_0.png@180x252?no-cache=1715699862&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/02a6b4b12eac331276af05fe4e5ed627aaa463f5/score_0.png@300x420?no-cache=1715699862&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/02a6b4b12eac331276af05fe4e5ed627aaa463f5/score_0.png@500x660?no-cache=1715699862&bgclr=ffffff"
+					},
+					"date_updated": 1715699862,
+					"duration": "02:56",
+					"hits": 5079,
+					"comments_count": 5,
+					"user": {
+						"id": 30541682,
+						"name": "Shlok Prabhu",
+						"url": "https://musescore.com/user/30541682",
+						"is_pro": false,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": false
+					},
+					"is_free": 1,
+					"is_public_domain": 0,
+					"pages_count": 4,
+					"length": 176,
+					"date_created": 1626492360,
+					"favorite_count": 227,
+					"download_count": 187,
+					"user_id": 30541682,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 0,
+					"complexity": 2,
+					"instrumentations": [
+						{
+							"name": "Solo"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						}
+					],
+					"rating": {
+						"rating": 4.77,
+						"count": 62,
+						"count_to_visible": 0
+					},
+					"is_origin": false,
+					"is_official": false,
+					"publisher": null,
+					"parts_names": [
+						"Piano"
+					],
+					"description": "Solo",
+					"url": "https://musescore.com/",
+					"composer_name": "Composer & Lyricist: Olivia Rodrigo",
+					"mobile_app_web": false,
+					"id_analytics": "2tZD2mEUShSxFqu/TL9H3GFlZTc3YTNlODM5NDVmZDI1ZWQ2OWU1NGMzMTUwYjc0YzI3OWE4MDFiZGY5ZWNmMDgzNmM5Y2UwMmNjNTI2ZTVogvIvAp916DDar5q0GGyHw2PFNQtaDLsuW4eZVpdzoA==",
+					"is_pdf": 0,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "advanced piano cover by shlok prabhu\n\na unique blend of pop-punk, rock, grunge and emo music reminiscent of the 90s, reac [url state=primary href=\"https://musescore.com/user/30541682/scores/6873209\"]Read more[/url]",
+					"href": "https://musescore.com/user/30541682/scores/6873209",
+					"instrumentation_links": [
+						{
+							"url_to_search": "/sheetmusic/solo/piano",
+							"name": "Solo Piano"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						}
+					]
+				},
+				{
+					"id": 11138722,
+					"title": "Say Yes To Heaven – Lana Del Rey",
+					"parts": 1,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/acac5b271d218a67484d3a299c6800717807329e/score_0.png@180x252?no-cache=1715707254&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/acac5b271d218a67484d3a299c6800717807329e/score_0.png@300x420?no-cache=1715707254&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/acac5b271d218a67484d3a299c6800717807329e/score_0.png@500x660?no-cache=1715707254&bgclr=ffffff"
+					},
+					"date_updated": 1715707254,
+					"duration": "02:34",
+					"hits": 18194,
+					"comments_count": 9,
+					"user": {
+						"id": 40002009,
+						"name": "chihuahua116",
+						"url": "https://musescore.com/user/40002009",
+						"is_pro": false,
+						"is_staff": false,
+						"is_moderator": false,
+						"is_publisher": false
+					},
+					"is_free": 1,
+					"is_public_domain": 0,
+					"pages_count": 3,
+					"length": 154,
+					"date_created": 1686463118,
+					"favorite_count": 1705,
+					"download_count": 405,
+					"user_id": 40002009,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 0,
+					"complexity": 2,
+					"instrumentations": [
+						{
+							"name": "Solo"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						}
+					],
+					"rating": {
+						"rating": 4.75,
+						"count": 150,
+						"count_to_visible": 0
+					},
+					"is_origin": false,
+					"is_official": false,
+					"publisher": null,
+					"parts_names": [
+						"Piano"
+					],
+					"description": "Solo",
+					"url": "https://musescore.com/",
+					"composer_name": "Lana Del Rey",
+					"mobile_app_web": false,
+					"id_analytics": "ZJD2Cqg3HlKD6ZnNcE8uq2E1MDNiZmYxNWQ0YjMxMTk1NDQ2OWQ5MmRmZGVjNTYyNTQyZjJkZmU0ZmQwY2FkZjViNmZiMjZkODY5NjlmZmPKSR900yo6yls+hBhBUECaGDf+UjVluFt+UIS3xgAbuA==",
+					"is_pdf": 0,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "",
+					"href": "https://musescore.com/user/40002009/scores/11138722",
+					"instrumentation_links": [
+						{
+							"url_to_search": "/sheetmusic/solo/piano",
+							"name": "Solo Piano"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						}
+					]
+				},
+				{
+					"id": 6446321,
+					"title": "Billie Eilish - therefore i am",
+					"parts": 1,
+					"thumbnails": {
+						"small": "https://cdn.ustatik.com/musescore/scoredata/g/e973b407c89ee4873daa7897f0e84bc9f87818c1/score_0.png@180x252?no-cache=1715697965&bgclr=ffffff",
+						"medium": "https://cdn.ustatik.com/musescore/scoredata/g/e973b407c89ee4873daa7897f0e84bc9f87818c1/score_0.png@300x420?no-cache=1715697965&bgclr=ffffff",
+						"large": "https://cdn.ustatik.com/musescore/scoredata/g/e973b407c89ee4873daa7897f0e84bc9f87818c1/score_0.png@500x660?no-cache=1715697965&bgclr=ffffff"
+					},
+					"date_updated": 1715697965,
+					"duration": "03:06",
+					"hits": 12591,
+					"comments_count": 33,
+					"user": {
+						"id": 33605901,
+						"name": "XiaoMigros",
+						"url": "https://musescore.com/xiaomigros",
+						"is_pro": true,
+						"is_staff": false,
+						"is_moderator": true,
+						"is_publisher": false
+					},
+					"is_free": 1,
+					"is_public_domain": 0,
+					"pages_count": 4,
+					"length": 186,
+					"date_created": 1605220112,
+					"favorite_count": 464,
+					"download_count": 474,
+					"user_id": 33605901,
+					"is_private": 0,
+					"has_custom_video": 0,
+					"has_custom_audio": 0,
+					"complexity": 2,
+					"instrumentations": [
+						{
+							"name": "Solo"
+						}
+					],
+					"instruments": [
+						{
+							"name": "Piano"
+						}
+					],
+					"rating": {
+						"rating": 4.69,
+						"count": 128,
+						"count_to_visible": 0
+					},
+					"is_origin": false,
+					"is_official": false,
+					"publisher": null,
+					"parts_names": [
+						"Piano"
+					],
+					"description": "Solo",
+					"url": "https://musescore.com/",
+					"composer_name": "Billie Eilish & Finneas O'Connell\narr. XiaoMigros",
+					"mobile_app_web": false,
+					"id_analytics": "r1wQx/7wnJgrFBcpw/Szz2JkOTc0NjI1MWU0N2NiY2JkNmNlM2NkY2VkZGQ5MjA0ODA4NmU4OTUwNWE2Yjg1YWE5NjljYTY1ZDlmODFiOTWAPdE90T4kb3LdkjCkjlV4F1MQQatNCQdMlXHF2BUj4A==",
+					"is_pdf": 0,
+					"is_downloadable": 1,
+					"billing": null,
+					"is_purchased": false,
+					"truncated_description": "Hey everyone! Here's \"therefore i am\" by Billie Eilish, arranged for solo piano. Have fun playing!\r\n\r\nEnjoyed this? First [url state=primary href=\"https://musescore.com/user/33605901/scores/6446321\"]Read more[/url]",
+					"href": "https://musescore.com/user/33605901/scores/6446321",
+					"instrumentation_links": [
+						{
+							"url_to_search": "/sheetmusic/solo/piano",
+							"name": "Solo Piano"
+						}
+					],
+					"instrument_links": [
+						{
+							"name": "Piano",
+							"url_to_search": "/sheetmusic/piano"
+						}
+					]
+				}
+			]
+		},
+		"header_bidding": []
+	}
+}
